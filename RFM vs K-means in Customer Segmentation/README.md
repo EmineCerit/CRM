@@ -6,7 +6,7 @@
 * [Task Details](#Task_Details)
 
 ![image](https://user-images.githubusercontent.com/83332641/161737124-7065934a-8608-4352-9867-907e987b4079.png)
-
+<a id="Introduction"></a>
 ## Introduction
 
 Identification of customers based on their choices and other behaviors is an important strategy in any organization. This identification may help in approaching customers with specific offers and products. An organization with a large number of customers may experience difficulty in identifying and placing into a record each customer individually. A huge amount of data processing and automated techniques are involved in extracting insights from the large information collected on customers.
@@ -20,23 +20,23 @@ These are the metrics that will be considered for both techniques.
 **Frequency** How often do they purchase?Total number of purchases. this value can be the number of Invoices or the number of products in an invoice or the number of website visits. In other words, it can be not only purchasing the product, but also using the service.
 
 **Monetary Value** How much do they spend?
-
+<a id="Context"></a>
 ## Context 
 
 The dataset named Online Retail II was obtained from a UK-based online store and includes sales from 01/12/2009 to 09/12/2011.  
 This company sells souvenirs and most of their customers are also wholesalers. Within the scope of this study, only 2010-2011 sales will be consedered.
-
+<a id="Business_Problem"></a>
 ## Business Problem
 
 Rule-based customer segmentation method RFM and machine learning method K-Means will be compared for customer segmentation.
-
+<a id="Task_Details"></a>
 ## Task Details
 
 * Data Preprocessing
 * Customer Segmentation with RFM
 * Customer Segmentation with K-Means
 * Comparison
-
+<a id="Attribute_Information"></a>
 ## Attribute Information:
 
 **InvoiceNo:** Invoice number. The unique number of each transaction, that is, the invoice. Aborted operation if it starts with C.  
