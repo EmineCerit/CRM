@@ -1,5 +1,5 @@
 
-CLTV PREDICTION WITH BG/NBD AND GAMMA&GAMMA MODELS
+# CLTV PREDICTION WITH BG/NBD AND GAMMA&GAMMA MODELS
 
 ## Table of contents
 * [Introduction](#Introduction)
@@ -7,7 +7,7 @@ CLTV PREDICTION WITH BG/NBD AND GAMMA&GAMMA MODELS
 * [Business Problem](#Business_Problem)
 * [Task Details](#Task_Details)
 * [Attribute Information](#Attribute_Information)
-* 
+
 <a id="Introduction"></a>
 ## Introduction
 **What is CLTV (Customer Life Time Value)?**  
@@ -35,17 +35,20 @@ The customer will be a dropout by p probability
 Dropout rates will change for each customer and they will be distributed beta (a,b) for the mass
 
 **Gamma-Gamma Submodel** will model the expected average profit distribution and will predict the expected average profit for each customer.
-<a id="Introduction"></a>
+
+<a id="Context"></a>
 ## Context
 
 The dataset named Online Retail II was obtained from a UK-based online store and includes sales from 01/12/2009 to 09/12/2011.
 
 This company sells souvenirs and most of their customers are also wholesalers. Within the scope of this study, only 2010-2011 sales will be consedered.
 
+<a id="Business_Problem"></a>
 ## Business Problem
 
 Our aim is to identify the customers who can generate the most revenue within the 6-month time period.
 
+<a id="Task_Details"></a>
 ## Task Details
 
 * Importing Libraries and Data
@@ -55,6 +58,7 @@ Our aim is to identify the customers who can generate the most revenue within th
 * Establishing the Gamma Gamma Model
 * Calculation of CLTV with BG-NBD and GG model.
 
+<a id="Attribute_Information"></a>
 ## Attribute Information:
 
 **InvoiceNo:** Invoice number. The unique number of each transaction, that is, the invoice. Aborted operation if it starts with C.  
