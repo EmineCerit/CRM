@@ -7,7 +7,8 @@ CLTV PREDICTION WITH BG/NBD AND GAMMA&GAMMA MODELS
 * [Business Problem](#Business_Problem)
 * [Task Details](#Task_Details)
 * [Attribute Information](#Attribute_Information)
-
+* 
+<a id="Introduction"></a>
 ## Introduction
 **What is CLTV (Customer Life Time Value)?**  
 Customer lifetime value (CLTV), represents the total amount of money a customer is expected to spend in your business, or on your products, during their lifetime.
@@ -34,7 +35,7 @@ The customer will be a dropout by p probability
 Dropout rates will change for each customer and they will be distributed beta (a,b) for the mass
 
 **Gamma-Gamma Submodel** will model the expected average profit distribution and will predict the expected average profit for each customer.
-
+<a id="Introduction"></a>
 ## Context
 
 The dataset named Online Retail II was obtained from a UK-based online store and includes sales from 01/12/2009 to 09/12/2011.
