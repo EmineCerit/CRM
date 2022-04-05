@@ -8,7 +8,7 @@
 * [Business Problem](#Business_Problem)
 * [Task Details](#Task_Details)
 * [Attribute Information](#Attribute_Information)
-
+<a id="Introduction"></a>
 ## Introduction
 
 Customer segmentation is the division of customers into groups based on common characteristics in order to increase sales through personalized content tailored to the respective segment.
@@ -20,23 +20,23 @@ There are various methods of customer segmentation, including clustering, RFM se
 **Frequency :** How often do they purchase?Total number of purchases. this value can be the number of Invoices or the number of products in an invoice or the number of website visits. In other words, it can be not only purchasing the product, but also using the service.
 
 **Monetary Value :** How much do they spend?
-
+<a id="Context"></a>
 ## Context  
 The dataset named Online Retail II was obtained from a UK-based online store and includes sales from 01/12/2009 to 09/12/2011.
 
 This company sells souvenirs and most of their customers are also wholesalers. Within the scope of this study, only 2010-2011 sales will be consedered.
-
+<a id="Business_Problem"></a>
 ## Business Problem  
 Our aim is to apply RFM analysis to the online retail II dataset and to include customers with common behaviors in the same groups and segment them to develop special sales and marketing techniques for these groups.
 
 The company believes that marketing activities specific to customer segments with common behaviors will increase revenue. For example, it is desired to organize different campaigns for new customers and different campaigns to retain customers, which are very profitable for the company.
-
+<a id="Task_Details"></a>
 ## Task Details
 * Data Preprocessing
 * Calculating RFM Metrics
 * Calculating RFM Scores
 * Creating RFM Segments
-
+<a id="Attribute_Information"></a>
 ## Attribute Information:
 **InvoiceNo:** Invoice number. The unique number of each transaction, that is, the invoice. Aborted operation if it starts with C.  
 **StockCode:** Product code. Unique number for each product.  
