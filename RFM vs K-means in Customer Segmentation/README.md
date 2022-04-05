@@ -15,11 +15,11 @@ There are various methods of customer segmentation. In this notebook we will foc
 
 These are the metrics that will be considered for both techniques.
 
-**Recency ** How recently did the customer purchase? Highest score refers to the customer with the nearest last shopping date
+**Recency** How recently did the customer purchase? Highest score refers to the customer with the nearest last shopping date
 
-**Frequency ** How often do they purchase?Total number of purchases. this value can be the number of Invoices or the number of products in an invoice or the number of website visits. In other words, it can be not only purchasing the product, but also using the service.
+**Frequency** How often do they purchase?Total number of purchases. this value can be the number of Invoices or the number of products in an invoice or the number of website visits. In other words, it can be not only purchasing the product, but also using the service.
 
-**Monetary Value ** How much do they spend?
+**Monetary Value** How much do they spend?
 
 ## Context 
 
